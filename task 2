@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+section h2 {
+  color: #333;
+}
+
+/* Columns */
+.columns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.column {
+  flex: 1;
+  margin: 0 1rem;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.column h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+  </style>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Landing Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are passionate about creating stunning and user-friendly web designs.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="columns">
+        <div class="column">
+          <h3>Web Development</h3>
+          <p>We build responsive and dynamic websites tailored to your needs.</p>
+        </div>
+        <div class="column">
+          <h3>Design</h3>
+          <p>Creative designs that bring your ideas to life.</p>
+        </div>
+        <div class="column">
+          <h3>Support</h3>
+          <p>24/7 support to ensure your site runs smoothly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Landing Page. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
